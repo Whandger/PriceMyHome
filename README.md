@@ -73,7 +73,9 @@ pip install flask scikit-learn numpy
 
 ### 3. Iniciar a aplicação
 
+```
 **Clique duas vezes** no arquivo `run_app.bat` para iniciar o servidor.
+```
 
 Depois, abra seu navegador em:
 
