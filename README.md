@@ -140,6 +140,11 @@ Exemplo de resposta:
 * Implementar autenticação de usuários, podendo obter estimativas personalizadas e histórico de resultados.
 * Migrar para produção com servidor WSGI, HTTPS, deploy em nuvem.
 
+## Preview
+
+<img src="house_price\images for preview\Formulario vazio.png"/>
+<img src="house_price\images for preview\Primeira casa.png"/>
+
 ---
 
 ## Licença
