@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+        <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>House Price</title>
+  <link rel="icon" href="" id="favicon">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+        </head>
+
+        <body>
+            <div class="container">
+                <h1>Houses as parameter</h1>
+                <div class="get_data_parameter">
+                  <ul>
+                    <li id="list_one">
+                      <div class="floating-label"><input type="number" id="quartos1" placeholder=" "><label for="quartos1">Rooms</label></div>
+                      <div class="floating-label"><input type="number" id="metros1" placeholder=" "><label for="metros1">Square Meters</label></div>
+                      <div class="floating-label"><input type="number" id="distancia1" placeholder=" "><label for="distancia1">Distance to City Center</label></div>
+                      <div class="floating-label"><input type="number" id="valor1" placeholder=" "><label for="valor1">Value</label></div>
+                    </li>
+                  
+                    <li id="list_two">
+                      <div class="floating-label"><input type="number" id="quartos2" placeholder=" "><label for="quartos2">Rooms</label></div>
+                      <div class="floating-label"><input type="number" id="metros2" placeholder=" "><label for="metros2">Square Meters</label></div>
+                      <div class="floating-label"><input type="number" id="distancia2" placeholder=" "><label for="distancia2">Distance to City Center</label></div>
+                      <div class="floating-label"><input type="number" id="valor2" placeholder=" "><label for="valor2">Value</label></div>
+                    </li>
+                  
+                    <li id="list_tree">
+                      <div class="floating-label"><input type="number" id="quartos3" placeholder=" "><label for="quartos3">Rooms</label></div>
+                      <div class="floating-label"><input type="number" id="metros3" placeholder=" "><label for="metros3">Square Meters</label></div>
+                      <div class="floating-label"><input type="number" id="distancia3" placeholder=" "><label for="distancia3">Distance to City Center</label></div>
+                      <div class="floating-label"><input type="number" id="valor3" placeholder=" "><label for="valor3">Value</label></div>
+                    </li>
+                  
+                    <li id="list_four">
+                      <div class="floating-label"><input type="number" id="quartos4" placeholder=" "><label for="quartos4">Rooms</label></div>
+                      <div class="floating-label"><input type="number" id="metros4" placeholder=" "><label for="metros4">Square Meters</label></div>
+                      <div class="floating-label"><input type="number" id="distancia4" placeholder=" "><label for="distancia4">Distance to City Center</label></div>
+                      <div class="floating-label"><input type="number" id="valor4" placeholder=" "><label for="valor4">Value</label></div>
+                    </li>
+                  
+                    <li id="list_five">
+                      <div class="floating-label"><input type="number" id="quartos5" placeholder=" "><label for="quartos5">Rooms</label></div>
+                      <div class="floating-label"><input type="number" id="metros5" placeholder=" "><label for="metros5">Square Meters</label></div>
+                      <div class="floating-label"><input type="number" id="distancia5" placeholder=" "><label for="distancia5">Distance to City Center</label></div>
+                      <div class="floating-label"><input type="number" id="valor5" placeholder=" "><label for="valor5">Value</label></div>
+                    </li>
+                  
+                    <li id="list_six">
+                      <div class="floating-label"><input type="number" id="quartos6" placeholder=" "><label for="quartos6">Rooms</label></div>
+                      <div class="floating-label"><input type="number" id="metros6" placeholder=" "><label for="metros6">Square Meters</label></div>
+                      <div class="floating-label"><input type="number" id="distancia6" placeholder=" "><label for="distancia6">Distance to City Center</label></div>
+                      <div class="floating-label"><input type="number" id="valor6" placeholder=" "><label for="valor6">Value</label></div>
+                    </li>
+                  
+                    <li id="list_seven">
+                      <div class="floating-label"><input type="number" id="quartos7" placeholder=" "><label for="quartos7">Rooms</label></div>
+                      <div class="floating-label"><input type="number" id="metros7" placeholder=" "><label for="metros7">Square Meters</label></div>
+                      <div class="floating-label"><input type="number" id="distancia7" placeholder=" "><label for="distancia7">Distance to City Center</label></div>
+                      <div class="floating-label"><input type="number" id="valor7" placeholder=" "><label for="valor7">Value</label></div>
+                    </li>
+                  </ul>                  
+                  </div>
+                  
+                <div class="get_data">
+                    <h1>House</h1>
+                    <ul>
+                      <li id="list_user">
+                        <div class="floating-label"><input type="number" id="quartos1" placeholder=" "><label for="quartos1">Rooms</label></div>
+                        <div class="floating-label"><input type="number" id="metros1" placeholder=" "><label for="metros1">Square Meters</label></div>
+                        <div class="floating-label"><input type="number" id="distancia1" placeholder=" "><label for="distancia1">Distance to City Center</label></div>
+                      </li>
+                </div>
+                <div class="show_result">
+                    <button id="button" type="submit">Calculate</button>
+                    <p id="previsao"class="loading">Waiting for results<span></span></p>
+                </div>      
+            </div>
+            <script src="{{ url_for('static', filename='js/get_value.js') }}"></script>
+        </body>
+
+
+    </html>
