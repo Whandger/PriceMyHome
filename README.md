@@ -142,8 +142,8 @@ Exemplo de resposta:
 
 ## Preview
 
-<img src="house_price\images for preview\Formulario vazio.png"/>
-<img src="house_price\images for preview\Primeira casa.png"/>
+<img src=".\images for preview\Formulario vazio.png"/>
+<img src=".\images for preview\Primeira casa.png"/>
 
 ---
 
